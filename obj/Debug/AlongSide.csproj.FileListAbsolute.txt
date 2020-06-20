@@ -108,3 +108,5 @@ C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.dll
 C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.pdb
 C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.InitialModel.resources
 C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.csproj.GenerateResource.cache
+C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.CreateGigTable.resources
+C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.OverridConventionsForGigsandGenres.resources
