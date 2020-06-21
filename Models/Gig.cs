@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace AlongSide.Models
 {
     public class Gig
-    //sessions for Mentors
+    //gigs for Mentors
     {
         public int Id { get; set; }
 
