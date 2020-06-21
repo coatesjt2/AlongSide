@@ -1,17 +1,31 @@
 ﻿using AlongSide.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace AlongSide.ViewModels
 {
     public class GigFormViewModel
     {
+        [Required]
         public string Venue { get; set; }
+
+        [Required]
+        [FutureDate]//class created to validate date
         public string Date { get; set; }
+
+        [Required]
+        [ValidTime]//class created to validate time
         public string Time { get; set; }
+
+        [Required]
         public byte Genre { get; set; }
+
         public IEnumerable<Genre> Genres { get; set; }
 
-        public DateTime DateTime => DateTime.Parse(string.Format("{0} {1}", Date, Time));
+        public DateTime GetDateTime()
+        {
+            return DateTime.Parse(string.Format("{0} {1}", Date, Time));
+        }
     }
 }
