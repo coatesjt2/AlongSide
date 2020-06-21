@@ -113,3 +113,4 @@ C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.OverridConv
 C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.PopulateGenresTable.resources
 C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.AddForeignKeyPropertiesToGig.resources
 C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.AddNameToApplicationUser.resources
+C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.AddAttendance.resources

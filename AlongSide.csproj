@@ -198,8 +198,13 @@
     <Compile Include="Migrations\202006210359205_AddNameToApplicationUser.Designer.cs">
       <DependentUpon>202006210359205_AddNameToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006210508126_AddAttendance.cs" />
+    <Compile Include="Migrations\202006210508126_AddAttendance.Designer.cs">
+      <DependentUpon>202006210508126_AddAttendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Attendance.cs" />
     <Compile Include="Models\ForgotPasswordViewModel.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
@@ -311,6 +316,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006210359205_AddNameToApplicationUser.resx">
       <DependentUpon>202006210359205_AddNameToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006210508126_AddAttendance.resx">
+      <DependentUpon>202006210508126_AddAttendance.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
