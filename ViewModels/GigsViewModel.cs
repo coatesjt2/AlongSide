@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
-using AlongSide.Models;
+﻿using AlongSide.Models;
+using System.Collections.Generic;
 
 namespace AlongSide.ViewModels
 {
-    public class HomeViewModel
+    public class GigsViewModel
     {
         public IEnumerable<Gig> UpcomingGigs { get; set; }
         public bool ShowActions { get; set; }
+        public string Heading { get; set; }
     }
 }

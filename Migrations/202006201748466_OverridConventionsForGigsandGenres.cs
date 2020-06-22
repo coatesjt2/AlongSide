@@ -1,8 +1,7 @@
 namespace AlongSide.Migrations
 {
-    using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class OverridConventionsForGigsandGenres : DbMigration
     {
         public override void Up()
@@ -20,7 +19,7 @@ namespace AlongSide.Migrations
             AddForeignKey("dbo.Gigs", "Artist_Id", "dbo.AspNetUsers", "Id", cascadeDelete: true);
             AddForeignKey("dbo.Gigs", "Genre_Id", "dbo.Genres", "Id", cascadeDelete: true);
         }
-        
+
         public override void Down()
         {
             DropForeignKey("dbo.Gigs", "Genre_Id", "dbo.Genres");

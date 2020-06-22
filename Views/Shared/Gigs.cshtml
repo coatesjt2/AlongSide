@@ -1,13 +1,9 @@
-﻿@model AlongSide.ViewModels.HomeViewModel
+﻿@model AlongSide.ViewModels.GigsViewModel
 @{
     ViewBag.Title = "Home Page";
 }
-<style type="text/css">.js-toggle-follow { }
-
- .js-toggle-attendance { }
-</style>
-
-<ul class="gigs">
+<h1>@Model.Heading</h1>
+<ul class="gigs voffset4">
     @foreach (var gig in Model.UpcomingGigs)
     {
     <li>

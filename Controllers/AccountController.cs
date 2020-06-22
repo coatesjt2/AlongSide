@@ -1,4 +1,5 @@
 ﻿using AlongSide.Models;
+using AlongSide.ViewModels;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
@@ -6,7 +7,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using AlongSide.ViewModels;
 
 namespace AlongSide.Controllers
 {

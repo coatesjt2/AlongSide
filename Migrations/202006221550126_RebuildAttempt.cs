@@ -1,8 +1,7 @@
 namespace AlongSide.Migrations
 {
-    using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class RebuildAttempt : DbMigration
     {
         public override void Up()
@@ -13,18 +12,18 @@ namespace AlongSide.Migrations
             DropIndex("dbo.Followings", new[] { "FolloweeId" });
             DropTable("dbo.Followings");
         }
-        
+
         public override void Down()
         {
             CreateTable(
                 "dbo.Followings",
                 c => new
-                    {
-                        FollowerId = c.String(nullable: false, maxLength: 128),
-                        FolloweeId = c.String(nullable: false, maxLength: 128),
-                    })
+                {
+                    FollowerId = c.String(nullable: false, maxLength: 128),
+                    FolloweeId = c.String(nullable: false, maxLength: 128),
+                })
                 .PrimaryKey(t => new { t.FollowerId, t.FolloweeId });
-            
+
             CreateIndex("dbo.Followings", "FolloweeId");
             CreateIndex("dbo.Followings", "FollowerId");
             AddForeignKey("dbo.Followings", "FolloweeId", "dbo.AspNetUsers", "Id");
