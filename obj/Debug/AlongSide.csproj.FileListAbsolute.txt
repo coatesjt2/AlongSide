@@ -114,3 +114,9 @@ C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.PopulateGen
 C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.AddForeignKeyPropertiesToGig.resources
 C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.AddNameToApplicationUser.resources
 C:\Users\coate\Source\Repos\AlongSide\obj\Debug\AlongSide.Migrations.AddAttendance.resources
+C:\Users\coate\Source\Repos\AlongSide\bin\System.Net.Http.Formatting.dll
+C:\Users\coate\Source\Repos\AlongSide\bin\System.Web.Http.dll
+C:\Users\coate\Source\Repos\AlongSide\bin\System.Web.Http.WebHost.dll
+C:\Users\coate\Source\Repos\AlongSide\bin\System.Net.Http.Formatting.xml
+C:\Users\coate\Source\Repos\AlongSide\bin\System.Web.Http.xml
+C:\Users\coate\Source\Repos\AlongSide\bin\System.Web.Http.WebHost.xml
