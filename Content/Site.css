@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -85,7 +85,7 @@ h6,
 
 .form-control {
     font-size: 17px;
-    padding: 20px 15px;
+    height: 44px;
     -ms-border-radius: 9px;
     border-radius: 9px;
 }
@@ -144,4 +144,11 @@ h6,
 }
 gigs > li .details .genre {
     font-size: 15px;
+}
+.gigs > li .actions {
+    font-size: 15px;
+    display: none;
+}
+.gigs > li:hover .actions {
+    display: block;
 }
