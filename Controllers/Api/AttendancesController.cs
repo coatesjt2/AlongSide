@@ -1,10 +1,10 @@
-﻿using AlongSide.Dtos;
+﻿using System.Linq;
+using System.Web.Http;
+using AlongSide.Dtos;
 using AlongSide.Models;
 using Microsoft.AspNet.Identity;
-using System.Linq;
-using System.Web.Http;
 
-namespace AlongSide.Controllers
+namespace AlongSide.Controllers.Api
 {
     [Authorize]
     public class AttendancesController : ApiController
